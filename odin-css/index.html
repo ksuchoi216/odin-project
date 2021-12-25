@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CSS</title>
+        <link rel="stylesheet" href="practice_css.css">
+        <style>
+            p {
+                color: white;
+                background-color: green;
+                font-size: 18px;
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+            <div>external method</div>
+            <p>internel method</p>
+            <button style="color:black; background-color: orange; font-size: 18px;">inline</button>
+        </section>
+        <section>
+            <p class="odd_num">number 1</p>
+            <p id="num2">number 2</p>
+            <p class="odd_num" id="num3">number 3</p>
+            <p id="num4">number 4</p>
+            <p class="odd_num">number 5</p>
+        </section>
+        <section>
+            <button class="click">Click Me!</button>
+            <button class="non-click">No, Click Me!</button>
+        </section>
+        <section>
+            <img src="./mutodo.png" class="avatar proportioned">
+            <img src="./picaquadio.png" class="avatar distorted">
+        </section>
+        <section>
+            <div class="container">
+                <p class="text">This should be unstyled.</p>
+            </div>
+            <p class="text">This should be unstyled.</p>
+            <p class="text">This should be unstyled.</p>
+            <div class="container">
+                <p class="text">This should be unstyled.</p>
+                <p class="text">This should be unstyled.</p>
+            </div>
+        </section>
+        <section>
+            <p class="para">I'm just a simple paragraph!</p>
+            <p class="para small-para">I'm a smaller paragraph!</p>
+          
+            <button id="confirm-button" class="button confirm">Confirm</button>
+            <button id="cancel-button" class="button cancel">Cancel</button>
+          
+            <div class="text2">I'm not related to those divs down there.</div>
+            <div class="text2">I have a child!
+              <div class="text2 child">My ancestor is so embarrassing.</div>
+            </div>
+        </section>
+    </body>
+</html>

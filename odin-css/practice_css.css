@@ -1,0 +1,108 @@
+* {
+    color: black;
+    background-color: transparent;
+}
+
+div {
+    background-color: red;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    color:white;
+}
+
+.odd_num {
+    background-color: lightpink;
+    font-family: "Verdana", "sans-serif";
+}
+
+#num2 {
+    font-size: 36px;
+    color: blue;
+    background-color: transparent;
+}
+
+#num3 {
+    font-size: 24px;
+}
+
+#num4 {
+    font-size: 24px;
+    color: black;
+    background-color: lightgreen;
+    font-weight:bold;
+}
+
+.click {
+    background-color: black;
+    color: white;
+    font-size: 28px;
+    font-family: Helvetica, Times New Roman, sans-serif;
+}
+
+.non-click {
+    background-color: yellow;
+    color: black;
+    font-size: 28px;
+    font-family: Helvetica, Times New Roman, sans-serif;
+}
+.avatar {
+    height: auto;
+}
+
+.proportioned {
+    width: 300px;
+}
+
+.distorted {
+    width: 200px;
+}
+
+.container .text {
+    color:red;
+    background-color: yellow;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.text {
+    color: black;
+    background-color: transparent;
+}
+
+.para {
+    color: red;
+    background-color: transparent;
+}
+.para.small-para {
+    font-size: 13px;
+}
+
+
+
+#confirm-button {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#cancel-button {
+    background-color: lightpink;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.text2 {
+    color: green;
+    background-color: transparent;
+    text-align: left;
+    font-weight: 50;
+}
+
+.text2 .child {
+    color: red;
+    font-size: 16px;
+    font-weight: 300;
+}
