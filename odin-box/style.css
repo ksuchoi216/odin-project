@@ -1,0 +1,26 @@
+div {
+    height: auto;
+}
+
+#div1 {
+    background: lightpink;
+    border: 3px solid blue;
+    padding: 32px;
+    margin: 12px;
+}
+
+#div2 {
+    background: lightblue;
+    border: 3px solid purple;
+    margin-bottom: 48px;
+}
+
+#div3 {
+    text-align: center;
+    background: peachpuff;
+    border: 3px solid brown;
+    width: 200px;
+    padding: 32px;
+    align-items: right;
+    margin-left: auto;
+}
